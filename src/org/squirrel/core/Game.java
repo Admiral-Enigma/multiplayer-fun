@@ -14,9 +14,7 @@ public class Game extends EwokGame{
 	@Override
 	public void paint(Graphics g) {
 		Graphics2D g2d = (Graphics2D) g;
-		
-		
-		
+		g2d.drawString("Test", 300, 300);	
 	}
 
 	@Override
